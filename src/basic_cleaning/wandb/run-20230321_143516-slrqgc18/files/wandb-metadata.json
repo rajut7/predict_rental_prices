@@ -1,0 +1,138 @@
+{
+    "os": "Linux-5.19.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.11.0",
+    "heartbeatAt": "2023-03-21T19:35:17.348739",
+    "startedAt": "2023-03-21T19:35:16.792563",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "sample.csv:latest",
+        "--output_artifact",
+        "clean_sample.csv",
+        "--output_type",
+        "clean_sample",
+        "--output_description",
+        "Data with outliers and null values removed",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/basic_cleaning/run.py",
+    "codePath": "src/basic_cleaning/run.py",
+    "git": {
+        "remote": "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git",
+        "commit": "ee12fe923335921a45579ab0e4698c2dbd49f8e4"
+    },
+    "email": "tadisettiraju72@gmail.com",
+    "root": "/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices",
+    "host": "raju",
+    "username": "raju",
+    "executable": "/home/raju/anaconda3/envs/mlflow-5b78ad083f4a18fde9e9ff85985ecbb9762f5970/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2912.0381250000005,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4245.467,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4165.024,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4271.887,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4203.093,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3858.574,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2224.432,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2857.416,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3431.965,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4222.44,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4353.303,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4280.473,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4130.62,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3998.276,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4117.407,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3806.334,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "total": 467.8895797729492,
+        "used": 252.06402969360352
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.406990051269531
+    }
+}

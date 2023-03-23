@@ -1,0 +1,56 @@
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_setup.py:_flush():76] Configure stats pid to 83175
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_setup.py:_flush():76] Loading settings from /home/raju/.config/wandb/settings
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_setup.py:_flush():76] Loading settings from /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/settings
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-20 15:45:44,971 INFO    MainThread:83175 [wandb_init.py:_log_setup():506] Logging user logs to /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20230320_154544-p26ohcye/logs/debug.log
+2023-03-20 15:45:44,972 INFO    MainThread:83175 [wandb_init.py:_log_setup():507] Logging internal logs to /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/eda/wandb/run-20230320_154544-p26ohcye/logs/debug-internal.log
+2023-03-20 15:45:44,972 INFO    MainThread:83175 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc599a8bd60>
+2023-03-20 15:45:44,972 INFO    MainThread:83175 [wandb_init.py:init():546] calling init triggers
+2023-03-20 15:45:44,972 INFO    MainThread:83175 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-20 15:45:44,972 INFO    MainThread:83175 [wandb_init.py:init():602] starting backend
+2023-03-20 15:45:44,972 INFO    MainThread:83175 [wandb_init.py:init():606] setting up manager
+2023-03-20 15:45:44,973 INFO    MainThread:83175 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-20 15:45:44,974 INFO    MainThread:83175 [wandb_init.py:init():613] backend started and connected
+2023-03-20 15:45:44,982 INFO    MainThread:83175 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-20 15:45:44,983 INFO    MainThread:83175 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: list index out of range
+2023-03-20 15:45:44,983 INFO    MainThread:83175 [wandb_init.py:init():701] updated telemetry
+2023-03-20 15:45:45,026 INFO    MainThread:83175 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-20 15:45:45,656 INFO    MainThread:83175 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-20 15:45:45,778 INFO    MainThread:83175 [wandb_run.py:_on_init():2142] got version response 
+2023-03-20 15:45:45,778 INFO    MainThread:83175 [wandb_init.py:init():789] starting run threads in backend
+2023-03-20 15:45:47,435 INFO    MainThread:83175 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-20 15:45:47,435 INFO    MainThread:83175 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-20 15:45:47,435 INFO    MainThread:83175 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-20 15:45:47,435 INFO    MainThread:83175 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-20 15:45:47,435 INFO    MainThread:83175 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-20 15:45:48,206 INFO    MainThread:83175 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2023-03-20 15:45:48,579 INFO    MainThread:83175 [wandb_init.py:_pause_backend():415] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc4e59b4dc0>
+2023-03-20 15:45:48,579 INFO    MainThread:83175 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-20 15:46:10,901 INFO    MainThread:83175 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-20 15:46:38,193 INFO    MainThread:83175 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2023-03-20 15:46:38,336 INFO    MainThread:83175 [wandb_init.py:_pause_backend():415] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc4ca39d180>
+2023-03-20 15:46:38,336 INFO    MainThread:83175 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-20 15:49:39,953 INFO    MainThread:83175 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-20 15:49:39,965 INFO    MainThread:83175 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2023-03-20 15:49:40,091 INFO    MainThread:83175 [wandb_init.py:_pause_backend():415] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc4e5a27130>
+2023-03-20 15:49:40,091 INFO    MainThread:83175 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-20 15:50:11,626 INFO    MainThread:83175 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-20 15:50:11,637 INFO    MainThread:83175 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2023-03-20 15:50:11,768 INFO    MainThread:83175 [wandb_init.py:_pause_backend():415] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc4c957a980>
+2023-03-20 15:50:11,769 INFO    MainThread:83175 [wandb_init.py:_pause_backend():417] pausing backend
+2023-03-20 15:51:05,480 INFO    MainThread:83175 [wandb_init.py:_resume_backend():422] resuming backend
+2023-03-20 15:51:05,481 INFO    MainThread:83175 [wandb_run.py:_finish():1854] finishing run rajutadi/nyc_airbnb/p26ohcye
+2023-03-20 15:51:05,517 INFO    MainThread:83175 [jupyter.py:save_history():474] saving 5 cells to _session_history.ipynb
+2023-03-20 15:51:05,517 INFO    MainThread:83175 [wandb_run.py:_config_callback():1251] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2023-03-20 15:51:05,523 INFO    MainThread:83175 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2023-03-20 15:51:05,635 INFO    MainThread:83175 [wandb_init.py:_jupyter_teardown():433] saved code and history: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc4b8d0beb0>
+2023-03-20 15:51:05,635 INFO    MainThread:83175 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2023-03-20 15:51:05,635 INFO    MainThread:83175 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-20 15:51:05,635 INFO    MainThread:83175 [wandb_run.py:_restore():2066] restore
+2023-03-20 15:51:05,635 INFO    MainThread:83175 [wandb_run.py:_restore():2072] restore done
+2023-03-20 15:51:11,900 INFO    MainThread:83175 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-20 15:51:11,900 INFO    MainThread:83175 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-20 15:51:11,904 INFO    MainThread:83175 [wandb_run.py:_footer_sync_info():3380] logging synced files

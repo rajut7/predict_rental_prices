@@ -1,0 +1,184 @@
+2023-03-22 20:09:31,148 INFO    StreamThr :174702 [internal.py:wandb_internal():87] W&B internal server running at pid: 174702, started at: 2023-03-22 20:09:31.148124
+2023-03-22 20:09:31,149 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: status
+2023-03-22 20:09:31,152 INFO    WriterThread:174702 [datastore.py:open_for_write():85] open: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/run-7andvy0t.wandb
+2023-03-22 20:09:31,152 DEBUG   SenderThread:174702 [sender.py:send():336] send: header
+2023-03-22 20:09:31,156 DEBUG   SenderThread:174702 [sender.py:send():336] send: run
+2023-03-22 20:09:31,425 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: check_version
+2023-03-22 20:09:31,426 INFO    SenderThread:174702 [dir_watcher.py:__init__():219] watching files in: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files
+2023-03-22 20:09:31,426 INFO    SenderThread:174702 [sender.py:_start_run_threads():1078] run started: 7andvy0t with start time 1679533771.148613
+2023-03-22 20:09:31,426 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: summary_record
+2023-03-22 20:09:31,426 INFO    SenderThread:174702 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-22 20:09:31,426 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: check_version
+2023-03-22 20:09:31,533 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: run_start
+2023-03-22 20:09:31,541 DEBUG   HandlerThread:174702 [system_info.py:__init__():31] System info init
+2023-03-22 20:09:31,541 DEBUG   HandlerThread:174702 [system_info.py:__init__():46] System info init done
+2023-03-22 20:09:31,541 INFO    HandlerThread:174702 [system_monitor.py:start():183] Starting system monitor
+2023-03-22 20:09:31,541 INFO    SystemMonitor:174702 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-22 20:09:31,541 INFO    HandlerThread:174702 [system_monitor.py:probe():204] Collecting system info
+2023-03-22 20:09:31,542 INFO    SystemMonitor:174702 [interfaces.py:start():187] Started cpu monitoring
+2023-03-22 20:09:31,542 INFO    SystemMonitor:174702 [interfaces.py:start():187] Started disk monitoring
+2023-03-22 20:09:31,544 INFO    SystemMonitor:174702 [interfaces.py:start():187] Started gpu monitoring
+2023-03-22 20:09:31,545 INFO    SystemMonitor:174702 [interfaces.py:start():187] Started memory monitoring
+2023-03-22 20:09:31,546 INFO    SystemMonitor:174702 [interfaces.py:start():187] Started network monitoring
+2023-03-22 20:09:31,553 ERROR   gpu       :174702 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-03-22 20:09:31,554 DEBUG   HandlerThread:174702 [system_info.py:probe():195] Probing system
+2023-03-22 20:09:31,556 DEBUG   HandlerThread:174702 [system_info.py:_probe_git():180] Probing git
+2023-03-22 20:09:31,561 DEBUG   HandlerThread:174702 [system_info.py:_probe_git():188] Probing git done
+2023-03-22 20:09:31,561 DEBUG   HandlerThread:174702 [system_info.py:probe():240] Probing system done
+2023-03-22 20:09:31,561 DEBUG   HandlerThread:174702 [system_monitor.py:probe():213] {'os': 'Linux-5.19.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.9', 'heartbeatAt': '2023-03-23T01:09:31.554999', 'startedAt': '2023-03-23T01:09:31.138399', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/outputs/2023-03-22/20-09-28/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git', 'commit': 'ee12fe923335921a45579ab0e4698c2dbd49f8e4'}, 'email': 'tadisettiraju72@gmail.com', 'root': '/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices', 'host': 'raju', 'username': 'raju', 'executable': '/home/raju/anaconda3/envs/mlflow-cc062a63ecfa81c4fe49a511de5aabce12db6f34/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1770.742, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 1645.002, 'min': 800.0, 'max': 4600.0}, {'current': 1948.892, 'min': 800.0, 'max': 4600.0}, {'current': 2300.0, 'min': 800.0, 'max': 4600.0}, {'current': 1522.802, 'min': 800.0, 'max': 4600.0}, {'current': 1135.082, 'min': 800.0, 'max': 4600.0}, {'current': 1282.499, 'min': 800.0, 'max': 4600.0}, {'current': 1556.867, 'min': 800.0, 'max': 4600.0}, {'current': 2300.0, 'min': 800.0, 'max': 4600.0}, {'current': 800.211, 'min': 800.0, 'max': 4600.0}, {'current': 2300.0, 'min': 800.0, 'max': 4600.0}, {'current': 1872.896, 'min': 800.0, 'max': 4600.0}, {'current': 2300.0, 'min': 800.0, 'max': 4600.0}, {'current': 1680.037, 'min': 800.0, 'max': 4600.0}, {'current': 1846.613, 'min': 800.0, 'max': 4600.0}, {'current': 1966.496, 'min': 800.0, 'max': 4600.0}, {'current': 1874.475, 'min': 800.0, 'max': 4600.0}], 'disk': {'total': 467.8895797729492, 'used': 253.68064880371094}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.406990051269531}}
+2023-03-22 20:09:31,561 INFO    HandlerThread:174702 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-22 20:09:31,561 INFO    HandlerThread:174702 [system_monitor.py:probe():217] Publishing system info
+2023-03-22 20:09:31,561 DEBUG   HandlerThread:174702 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-22 20:09:31,561 DEBUG   HandlerThread:174702 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-22 20:09:31,561 DEBUG   HandlerThread:174702 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-22 20:09:32,427 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_created():278] file/dir created: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/wandb-summary.json
+2023-03-22 20:09:32,427 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_created():278] file/dir created: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/conda-environment.yaml
+2023-03-22 20:09:32,427 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_created():278] file/dir created: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/requirements.txt
+2023-03-22 20:09:33,311 DEBUG   HandlerThread:174702 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-22 20:09:33,311 INFO    HandlerThread:174702 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-22 20:09:33,313 DEBUG   SenderThread:174702 [sender.py:send():336] send: files
+2023-03-22 20:09:33,313 INFO    SenderThread:174702 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-22 20:09:33,316 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-22 20:09:33,317 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: stop_status
+2023-03-22 20:09:33,428 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/conda-environment.yaml
+2023-03-22 20:09:33,428 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_created():278] file/dir created: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/wandb-metadata.json
+2023-03-22 20:09:33,465 DEBUG   SenderThread:174702 [sender.py:send():336] send: telemetry
+2023-03-22 20:09:33,466 DEBUG   SenderThread:174702 [sender.py:send():336] send: config
+2023-03-22 20:09:33,466 DEBUG   SenderThread:174702 [sender.py:send():336] send: config
+2023-03-22 20:09:33,554 ERROR   gpu       :174702 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-03-22 20:09:33,845 DEBUG   SenderThread:174702 [sender.py:send():336] send: use_artifact
+2023-03-22 20:09:33,856 INFO    wandb-upload_0:174702 [upload_job.py:push():138] Uploaded file /tmp/tmpzaa_3j76wandb/v84yra81-wandb-metadata.json
+2023-03-22 20:09:34,306 DEBUG   SenderThread:174702 [sender.py:send():336] send: exit
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:send_exit():559] handling exit code: 1
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:send_exit():561] handling runtime: 2
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:send_exit():567] send defer
+2023-03-22 20:09:34,307 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,307 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-22 20:09:34,307 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 1
+2023-03-22 20:09:34,307 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,307 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-22 20:09:34,307 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-22 20:09:34,307 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 2
+2023-03-22 20:09:34,307 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,307 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-22 20:09:34,307 INFO    HandlerThread:174702 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-22 20:09:34,308 DEBUG   SystemMonitor:174702 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-22 20:09:34,308 DEBUG   SystemMonitor:174702 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-22 20:09:34,308 DEBUG   SystemMonitor:174702 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-22 20:09:34,308 INFO    HandlerThread:174702 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-22 20:09:34,309 INFO    HandlerThread:174702 [interfaces.py:finish():199] Joined disk monitor
+2023-03-22 20:09:34,334 INFO    HandlerThread:174702 [interfaces.py:finish():199] Joined gpu monitor
+2023-03-22 20:09:34,334 INFO    HandlerThread:174702 [interfaces.py:finish():199] Joined memory monitor
+2023-03-22 20:09:34,334 INFO    HandlerThread:174702 [interfaces.py:finish():199] Joined network monitor
+2023-03-22 20:09:34,335 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,335 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-22 20:09:34,335 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 3
+2023-03-22 20:09:34,335 DEBUG   SenderThread:174702 [sender.py:send():336] send: stats
+2023-03-22 20:09:34,335 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,335 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-22 20:09:34,335 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,335 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-22 20:09:34,335 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 4
+2023-03-22 20:09:34,336 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,336 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-22 20:09:34,336 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,336 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-22 20:09:34,336 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 5
+2023-03-22 20:09:34,336 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,336 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-22 20:09:34,336 DEBUG   SenderThread:174702 [sender.py:send():336] send: summary
+2023-03-22 20:09:34,336 INFO    SenderThread:174702 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-22 20:09:34,336 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,336 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-22 20:09:34,336 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 6
+2023-03-22 20:09:34,336 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,336 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-22 20:09:34,336 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,336 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-22 20:09:34,339 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: status_report
+2023-03-22 20:09:34,428 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/wandb-summary.json
+2023-03-22 20:09:34,428 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_created():278] file/dir created: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/output.log
+2023-03-22 20:09:34,616 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 7
+2023-03-22 20:09:34,616 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:34,616 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-22 20:09:34,617 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:34,617 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-22 20:09:35,307 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-22 20:09:35,429 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/config.yaml
+2023-03-22 20:09:36,237 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 8
+2023-03-22 20:09:36,238 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: poll_exit
+2023-03-22 20:09:36,238 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:36,238 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-22 20:09:36,239 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:36,239 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-22 20:09:36,257 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 9
+2023-03-22 20:09:36,258 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:36,259 DEBUG   SenderThread:174702 [sender.py:send():336] send: artifact
+2023-03-22 20:09:36,259 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-22 20:09:36,307 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-22 20:09:36,429 INFO    Thread-13 :174702 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/output.log
+2023-03-22 20:09:36,969 INFO    SenderThread:174702 [sender.py:send_artifact():1428] sent artifact job-https___github.com_udacity_build-ml-pipeline-for-short-term-rental-prices.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NDA0NzkzNTU3', 'digest': '53a784d29b3e0e6dbf8ec2096cb923ca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_udacity_build-ml-pipeline-for-short-term-rental-prices.git_src_train_random_forest_run.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_udacity_build-ml-pipeline-for-short-term-rental-prices.git_src_train_random_forest_run.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU4NDE2Mjg3', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDA0NzkzNTU3', 'versionIndex': 0}}, 'version': 'v0'}
+2023-03-22 20:09:36,970 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:36,970 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-22 20:09:36,970 INFO    SenderThread:174702 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-22 20:09:37,430 INFO    SenderThread:174702 [dir_watcher.py:finish():395] scan: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files
+2023-03-22 20:09:37,431 INFO    SenderThread:174702 [dir_watcher.py:finish():409] scan save: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/conda-environment.yaml conda-environment.yaml
+2023-03-22 20:09:37,431 INFO    SenderThread:174702 [dir_watcher.py:finish():409] scan save: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/requirements.txt requirements.txt
+2023-03-22 20:09:37,431 INFO    SenderThread:174702 [dir_watcher.py:finish():409] scan save: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/config.yaml config.yaml
+2023-03-22 20:09:37,431 INFO    SenderThread:174702 [dir_watcher.py:finish():409] scan save: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/wandb-metadata.json wandb-metadata.json
+2023-03-22 20:09:37,431 INFO    SenderThread:174702 [dir_watcher.py:finish():409] scan save: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/wandb-summary.json wandb-summary.json
+2023-03-22 20:09:37,431 INFO    SenderThread:174702 [dir_watcher.py:finish():409] scan save: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/output.log output.log
+2023-03-22 20:09:37,432 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 10
+2023-03-22 20:09:37,432 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: poll_exit
+2023-03-22 20:09:37,432 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:37,433 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-22 20:09:37,433 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:37,443 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-22 20:09:37,447 INFO    SenderThread:174702 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-22 20:09:37,970 INFO    wandb-upload_3:174702 [upload_job.py:push():138] Uploaded file /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/wandb-summary.json
+2023-03-22 20:09:37,971 INFO    wandb-upload_2:174702 [upload_job.py:push():138] Uploaded file /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/config.yaml
+2023-03-22 20:09:37,973 INFO    wandb-upload_1:174702 [upload_job.py:push():138] Uploaded file /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/requirements.txt
+2023-03-22 20:09:37,974 INFO    wandb-upload_4:174702 [upload_job.py:push():138] Uploaded file /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/output.log
+2023-03-22 20:09:37,975 INFO    wandb-upload_0:174702 [upload_job.py:push():138] Uploaded file /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/files/conda-environment.yaml
+2023-03-22 20:09:38,175 INFO    Thread-12 (_thread_body):174702 [sender.py:transition_state():587] send defer: 11
+2023-03-22 20:09:38,176 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:38,176 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-22 20:09:38,176 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:38,176 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-22 20:09:38,177 INFO    SenderThread:174702 [file_pusher.py:join():169] waiting for file pusher
+2023-03-22 20:09:38,177 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 12
+2023-03-22 20:09:38,177 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:38,177 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-22 20:09:38,177 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:38,177 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-22 20:09:38,247 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 13
+2023-03-22 20:09:38,247 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:38,247 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-22 20:09:38,248 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:38,248 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-22 20:09:38,248 INFO    SenderThread:174702 [sender.py:transition_state():587] send defer: 14
+2023-03-22 20:09:38,248 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: defer
+2023-03-22 20:09:38,248 INFO    HandlerThread:174702 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-22 20:09:38,249 DEBUG   SenderThread:174702 [sender.py:send():336] send: final
+2023-03-22 20:09:38,249 DEBUG   SenderThread:174702 [sender.py:send():336] send: footer
+2023-03-22 20:09:38,249 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: defer
+2023-03-22 20:09:38,249 INFO    SenderThread:174702 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-22 20:09:38,250 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-22 20:09:38,251 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: poll_exit
+2023-03-22 20:09:38,252 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: server_info
+2023-03-22 20:09:38,253 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-22 20:09:38,253 DEBUG   SenderThread:174702 [sender.py:send_request():363] send_request: server_info
+2023-03-22 20:09:38,255 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-22 20:09:38,387 INFO    MainThread:174702 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-22 20:09:38,387 INFO    MainThread:174702 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-22 20:09:38,388 INFO    MainThread:174702 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-22 20:09:38,388 DEBUG   HandlerThread:174702 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-22 20:09:38,388 INFO    HandlerThread:174702 [handler.py:finish():842] shutting down handler
+2023-03-22 20:09:39,253 INFO    WriterThread:174702 [datastore.py:close():298] close: /home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/wandb/run-20230322_200931-7andvy0t/run-7andvy0t.wandb
+2023-03-22 20:09:39,387 INFO    SenderThread:174702 [sender.py:finish():1504] shutting down sender
+2023-03-22 20:09:39,387 INFO    SenderThread:174702 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-22 20:09:39,387 INFO    SenderThread:174702 [file_pusher.py:join():169] waiting for file pusher

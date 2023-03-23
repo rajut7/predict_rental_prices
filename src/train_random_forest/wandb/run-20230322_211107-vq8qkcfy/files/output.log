@@ -1,0 +1,10 @@
+2023-03-22 21:11:10,434 Minimum price: 10, Maximum price: 350
+2023-03-22 21:11:10,442 Preparing sklearn pipeline
+2023-03-22 21:11:10,442 Fitting
+2023-03-22 21:11:10,805 Scoring
+2023-03-22 21:11:10,869 Score: 0.5519152667668663
+2023-03-22 21:11:10,869 MAE: 34.12760059704365
+2023-03-22 21:11:10,869 Exporting model
+/home/raju/anaconda3/envs/mlflow-cc062a63ecfa81c4fe49a511de5aabce12db6f34/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[34m[1mwandb[39m[22m: Adding directory to artifact (./random_forest_dir)... Done. 0.0s

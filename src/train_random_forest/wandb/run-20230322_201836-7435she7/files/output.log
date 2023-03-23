@@ -1,0 +1,17 @@
+2023-03-22 20:18:39,566 Minimum price: 10, Maximum price: 350
+2023-03-22 20:18:39,574 Preparing sklearn pipeline
+2023-03-22 20:18:39,574 Fitting
+Traceback (most recent call last):
+  File "/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py", line 300, in <module>
+    go(args)
+  File "/home/raju/Desktop/udacity/Mlops/build-ml-pipeline-for-short-term-rental-prices/src/train_random_forest/run.py", line 78, in go
+    sk_pipe.fit(X_train,y_train)
+  File "/home/raju/anaconda3/envs/mlflow-cc062a63ecfa81c4fe49a511de5aabce12db6f34/lib/python3.10/site-packages/sklearn/pipeline.py", line 405, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/home/raju/anaconda3/envs/mlflow-cc062a63ecfa81c4fe49a511de5aabce12db6f34/lib/python3.10/site-packages/sklearn/ensemble/_forest.py", line 340, in fit
+    self._validate_params()
+  File "/home/raju/anaconda3/envs/mlflow-cc062a63ecfa81c4fe49a511de5aabce12db6f34/lib/python3.10/site-packages/sklearn/base.py", line 600, in _validate_params
+    validate_parameter_constraints(
+  File "/home/raju/anaconda3/envs/mlflow-cc062a63ecfa81c4fe49a511de5aabce12db6f34/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 97, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of RandomForestRegressor must be a str among {'absolute_error', 'squared_error', 'poisson', 'friedman_mse'}. Got 'mae' instead.
